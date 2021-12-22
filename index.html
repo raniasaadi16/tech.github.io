@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</head>
+<body>
+   
+    <!--OFFER NAV-->
+    <div class="offer-nav text-center pt-1 pb-2 px-3">
+        <p class="text-white">The offer will end in :</p>
+        <div class="flipper" 
+            data-datetime="2022-01-01 00:00:00" 
+            data-template="ddd|HH|ii|ss" 
+            data-labels="Days|Hours|Minutes|Seconds" 
+            data-reverse="true"
+            id="myFlipper">
+        </div>
+
+        <button class="close btn">X</button>
+    </div>
+
+    <!--TOP NAV-->
+    <div class="top-nav">
+        <div class="container d-flex justify-content-between align-items-center py-1 block-sm">
+            <div class="logos">
+                <img src="./assets/images/IIBA-EEP-Logo-3-white.png" class="me-2" alt="">
+                <img src="./assets/images/PMI-ATP-Badge-2021_png.png" class="ms-2" alt="">
+            </div>      
+            <div class="infos">
+                <div class="mx-3 d-inline-block">
+                    <span class="iconify d-inline-block me-3" data-icon="bx:bxs-phone"></span>
+                    <p class="d-inline-block mb-0">+91 93255 66777 / +91 74320 10353</p>
+                </div>
+
+            </div>
+            <div class="d-flex align-items-center last">
+                <a href="" class="me-3">Events</a>
+                <a href="" class="me-3">Alumni</a>
+                <a href="" class="btn btn-secondary text-primary px-4 py-1">LOGIN</a>
+            </div>
+        </div>
+    </div>
+
+    <!--MAIN NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white main-nav">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="./assets/images/1700 x 400.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <!--1-->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <!--2-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">About Techcanvass</a></li>
+                  <li><a class="dropdown-item" href="#">Founder</a></li>
+                  <li><a class="dropdown-item" href="#">Advisor</a></li>
+                  <li><a class="dropdown-item" href="#">Techcanvass Reviews</a></li>
+                </ul>
+              </li>
+                <!--3-->
+              <li class="nav-item dropdown big">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ba Certification
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="container">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-lg-4 py-3">
+                                <h3 class="text-primary">Title Here</h3>
+                                <div class="my-2 bg-primary line"></div>
+                                <div class="mt-3">
+                                    <li class="my-2"><a href="#">ECBA Certtification Training</a></li>
+                                    <li class="my-2"><a href="#">CCBA Certtification Training</a></li>
+                                    <li class="my-2"><a href="#">CBAP Certtification Training</a></li>
+                                    <li class="my-2"><a href="#">CBAP Certtification Course</a></li>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 py-3">
+                                <h3 class="text-primary">Title Here</h3>
+                                <div class="my-2 bg-primary line"></div>
+                                <div class="mt-3">
+                                    <li class="my-2"><a href="#">Agile Analysis Certification(AAC) Course</a></li>
+                                    <li class="my-2"><a href="#">Certified Agile Business Analyst(CABA) Training</a></li>
+                                    <li class="my-2"><a href="#">Certified Product Owner(CPOA) Training</a></li>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 py-3">
+                                <h3 class="text-primary">Title Here</h3>
+                                <div class="my-2 bg-primary line"></div>
+                                <div class="mt-3">
+                                    <li class="my-2"><a href="#">Business Analyst in Banking Certification Course</a></li>
+                                    <li class="my-2"><a href="#">All Business Analyst Certification</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+              </li>
+                <!--4-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PMP Training
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">PMP Certification Course</a></li>
+                </ul>
+              </li>
+                <!--5-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Analytics Certifications
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Data Visualiwation Course with Power BI</a></li>
+                  <li><a class="dropdown-item" href="#">Certified Business Data Analytics (CBDA) Training</a></li>
+                  <li><a class="dropdown-item" href="#">Data Visualiwation Course with Tableau</a></li>
+                </ul>
+              </li>
+                <!--6-->
+              <li class="nav-item dropdown big">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Self-learning Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="container">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-lg-4 py-3">
+                                <h3 class="text-primary">Title Here</h3>
+                                <div class="my-2 bg-primary line"></div>
+                                <div class="mt-3">
+                                    <li class="my-2"><a href="#">CBAP Self-Learning Course</a></li>
+                                    <li class="my-2"><a href="#">AAC Self-Learning Course</a></li>
+                                    <li class="my-2"><a href="#">CCBA Self-Learning Course</a></li>
+                                    <li class="my-2"><a href="#">Ecba Self-Learning Course</a></li>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 py-3">
+                                <h3 class="text-primary">Title Here</h3>
+                                <div class="my-2 bg-primary line"></div>
+                                <div class="mt-3">
+                                    <li class="my-2"><a href="#">UML Modeling Certification Course</a></li>
+                                    <li class="my-2"><a href="#">JIRA Certification Course for Business Analyst</a></li>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 py-3">
+                                <h3 class="text-primary">Title Here</h3>
+                                <div class="my-2 bg-primary line"></div>
+                                <div class="mt-3">
+                                    <li class="my-2"><a href="#">MS Visio/UML Certification</a></li>
+                                    <li class="my-2"><a href="#">SQL Certification for Business Analyst</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+              </li>
+                <!--7-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Question Banks
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">ECBA Test Series</a></li>
+                  <li><a class="dropdown-item" href="#">CCBA Test Series</a></li>
+                  <li><a class="dropdown-item" href="#">AAC Test Series</a></li>
+                  <li><a class="dropdown-item" href="#">CBAP Test Series</a></li>
+                  <li><a class="dropdown-item" href="#">CBDA Test Series</a></li>
+                  <li><a class="dropdown-item" href="#">CPAO Test Series</a></li>
+                </ul>
+              </li>
+                <!--8-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Free Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Agile Scrum Essentials Course</a></li>
+                  <li><a class="dropdown-item" href="#">Tableau Fundamentals Course</a></li>
+                  <li><a class="dropdown-item" href="#">Agile Testing Certification (Free)</a></li>
+                  <li><a class="dropdown-item" href="#">Devops Certification (Free)</a></li>
+                  <li><a class="dropdown-item" href="#">PMP Resources</a></li>
+                  <li><a class="dropdown-item" href="#">ECBA Resources</a></li>
+                  <li><a class="dropdown-item" href="#">CCBA/CBAP Resources</a></li>
+                  <li><a class="dropdown-item" href="#">Automation Testing Resources</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      <!--HEADER-->
+      <header class="position-relative">
+          <div class="row mx-auto w-full container">
+              <div class="col-lg-7 col-md-12 px-0 text-box my-auto pe-5">
+                  <img src="./assets/images/Dot Grid.png" alt="" class="dot position-absolute">
+                  <p>Offer of the week</p>
+                  <h2 class="fw-bold"> 20% on IIBA Certification Course</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi                   
+                 </p>
+                  <a href="" class="btn btn-primary text-secondary mt-3 py-2 px-4">Get Started</a>
+              </div>
+              <div class="col-5 px-0 position-absolute img-box">
+                  <img class="main-img" src="./assets/images/annie-spratt-QckxruozjRg-unsplash.jpg" alt="">
+              </div>
+          </div>
+      </header>
+
+      
+    <!--STICKY NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top sticky-nav shadow">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">ECBA Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CCBA Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CBAP Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PMP Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-primary text-white ms-3 py-1 my-auto" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control" type="search" placeholder="Enter Course or Certificate Name" aria-label="Search">
+                <button class="btn btn-primary search-btn" type="submit">
+                    <span class="iconify" data-icon="akar-icons:search"></span>
+                </button>
+              </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--Welcome-->
+      <div class="container welcome mt-5">
+          <div class="row align-items-center">
+              <div class="col-lg-5">
+                  <img src="./assets/images/austin-distel-L3OV19xVi8Q-unsplash.jpg" class="rounded" alt="">
+              </div>
+              <div class="col-lg-7 text-box">
+                   <h2 class="fw-bold">WELCOME TO TECHCANVASS ACADEMY</h2>
+                   <div class="mt-3">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi                   
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi                   
+                      </p>
+                   </div>
+                  <a href="" class="btn btn-primary text-secondary mt-3 py-2 px-4">Become Partener</a>
+              </div>
+          </div>
+      </div>
+
+      <!--CATEGORIES-->
+      <div class="categories container mt-5">
+        <h3 class="fw-bold">Courses Categories</h3>
+        <div class="owl-carousel owl-carousel2 owl-theme mt-3">
+            <div class="item mt-2" >
+              <a href="">
+                  <div class="position-relative box">
+                      <div class="img-box">
+                          <img src="./assets/images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" class="rounded" alt="">
+                      </div>
+                      <div class="text-box position-absolute text-center">
+                          <h5 class="text-white fw-bold">Top rated courses</h5>
+                          <p class="text-white ">35 courses</p>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="item mt-2" >
+              <a href="">
+                  <div class="position-relative box">
+                      <div class="img-box">
+                          <img src="./assets/images/altumcode-dC6Pb2JdAqs-unsplash.jpg" class="rounded" alt="">
+                      </div>
+                      <div class="text-box position-absolute text-center">
+                          <h5 class="text-white fw-bold">Trending courses</h5>
+                          <p class="text-white ">35 courses</p>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="item mt-2" >
+              <a href="">
+                  <div class="position-relative box">
+                      <div class="img-box">
+                          <img src="./assets/images/campaign-creators---kQ4tBklJI-unsplash.jpg" class="rounded" alt="">
+                      </div>
+                      <div class="text-box position-absolute text-center">
+                          <h5 class="text-white fw-bold">Courses with offers</h5>
+                          <p class="text-white ">35 courses</p>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="item mt-2" >
+              <a href="">
+                  <div class="position-relative box">
+                      <div class="img-box">
+                          <img src="./assets/images/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg" class="rounded" alt="">
+                      </div>
+                      <div class="text-box position-absolute text-center">
+                          <h5 class="text-white fw-bold">Domain courses</h5>
+                          <p class="text-white ">35 courses</p>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="item mt-2" >
+              <a href="">
+                  <div class="position-relative box">
+                      <div class="img-box">
+                          <img src="./assets/images/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg" class="rounded" alt="">
+                      </div>
+                      <div class="text-box position-absolute text-center">
+                          <h5 class="text-white fw-bold">Short cources</h5>
+                          <p class="text-white ">35 courses</p>
+                      </div>
+                  </div>
+              </a>
+            </div>
+            <div class="item mt-2" >
+                <a href="">
+                    <div class="position-relative box">
+                        <div class="img-box">
+                            <img src="./assets/images/kobu-agency-rhSHRNRvzHo-unsplash.jpg" class="rounded" alt="">
+                        </div>
+                        <div class="text-box position-absolute text-center">
+                            <h5 class="text-white fw-bold">Category title</h5>
+                            <p class="text-white ">35 courses</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item mt-2" >
+                <a href="">
+                    <div class="position-relative box">
+                        <div class="img-box">
+                            <img src="./assets/images/altumcode-2l4ztyIYouk-unsplash.jpg" class="rounded" alt="">
+                        </div>
+                        <div class="text-box position-absolute text-center">
+                            <h5 class="text-white fw-bold">Category title</h5>
+                            <p class="text-white ">35 courses</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+      <!--Business Analysis Courses-->
+      <div class="courses container mt-5">
+        <h3 class="fw-bold">Business Analysis Courses</h3>
+        <div class="row mt-3">
+            <!--course 1-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 2-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/austin-distel-rxpThOwuVgE-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 3-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/austin-distel-VvAcrVa56fc-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 4-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/austin-distel-L3OV19xVi8Q-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+      </div>
+
+      <!--Project Management Courses-->
+      <div class="courses container mt-5">
+        <h3 class="fw-bold">Project Management Courses</h3>
+        <div class="row mt-3">
+            <!--course 1-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 2-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/austin-distel-rxpThOwuVgE-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 3-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/austin-distel-VvAcrVa56fc-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 4-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="./assets/images/austin-distel-L3OV19xVi8Q-unsplash.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">PMP Preparation Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+      </div>
+
+      <!--Why Techcanvass?-->
+      <div class="why icon-bg mt-5 py-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-12 my-auto">
+                    <div class="text-box my-auto">
+                        <h2 class="fw-bold">Why Techcanvass?</h2>
+                        <h5 class="text-primary mb-0">The knowledgeHut Edge</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <!--1-->
+                        <div class="col-lg-4 col-md-4 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="uim:graph-bar" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Experiential Workshops</p>
+                                </div>
+                                <p class="mt-3">
+                                    Activities, team-based exercieces, pratical case studies: High energy workshiopes with hands-on learning.
+                                </p>
+                            </div>
+                        </div>
+                         <!--2-->
+                         <div class="col-lg-4 col-md-4 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="uim:graph-bar" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">PMP Exam Succes Formula</p>
+                                </div>
+                                <p class="mt-3">
+                                    Mock exams, digital resources from PMI and theoretical and pratical learning backed by 2021 exam tips.                                
+                                </p>
+                            </div>
+                        </div>
+                         <!--3-->
+                         <div class="col-lg-4 col-md-4 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="uim:graph-bar" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Exlusive GRAND PASS</p>
+                                </div>
+                                <p class="mt-3">
+                                    Avail KnoweldgeHut’s Exlusive GRAND PASS for 180 days and take advantages of the free refresher.                                
+                                </p>
+                            </div>
+                        </div>
+                        <!--4-->
+                        <div class="col-lg-4 col-md-4 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="uim:graph-bar" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">PMP Exam Application Assistance</p>
+                                </div>
+                                <p class="mt-3">
+                                    Expert guidance on PMI registration, membership, review and submission of your PMP exam applicatiopn.                                
+                                </p>
+                            </div>
+                        </div>
+                        <!--5-->
+                        <div class="col-lg-4 col-md-4 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="uim:graph-bar" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Certification journey Support</p>
+                                </div>
+                                <p class="mt-3">
+                                    Need help at any step of PMP certification? From enrolling to certification, KnowledgebaleHut has your back.                                
+                                </p>
+                            </div>
+                        </div>
+                         <!--6-->
+                         <div class="col-lg-4 col-md-4 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="uim:graph-bar" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Exlusive Post-Training Session</p>
+                                </div>
+                                <p class="mt-3">
+                                    Six months of post-training mentor guidnace to overcome challenges in your project managment.                                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!--TESTIMONIALS-->
+      <div class="testimonials container mt-5">
+        <h3 class="fw-bold text-center">Testimonials</h3>
+        <div id="carouselExampleControls" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="false">
+            <div class="carousel-inner">
+                <!--1-->
+                <div class="carousel-item active">
+                    <div class="review-box">
+                        <img src="./assets/images/Asmita.webp" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="text-center">
+                            <h4 class="text-primary mt-3">Asmita Modwel</h4>
+                            <h4 class="text-primary">(Completed CBAP Training) </h4>
+                            <p class="fw-bold"><small> Senior Business Analyst at Yoma Bank Yangon Myanmar </small></p>
+                            <p>
+                                I am delighted to say that I passed the CBAP exam in the first attempt. Many thanks to Techcanvass!<br/>
+                                The training provided by Techcanvass was excellent. Great support from Ela, Brijesh and Nazni in clearing the doubts even after the course ended. Their practice questions and simulation exams are an excellent resource to prepare for the exam. Knowledge area wise questions helped to understand which areas I was lacking in.
+                                <br/>For passing the exam, practising the tests was crucial as it helped me gain confidence and be fully prepared for the exam day. I recommend Techcanvass to everyone who is looking for comprehensive training and an extensive question bank at a reasonable price.
+                                
+                            </p>
+                        </div>
+                    </div>             
+                </div>
+                <!--2-->
+               <div class="carousel-item">
+                    <div class="review-box">
+                        <img src="./assets/images/IIBA_Calgary_Sonal Patel.webp" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="text-center">
+                            <h5 class="text-primary mt-3">Sonal Patel</h5>
+                            <h5 class="text-primary">(Completed AAC preparation pack)</h5>
+                            <p class="fw-bold"><small>IT PM&BA at ConocoPhillips</small></p>
+                            <p>
+                                I would like to recommend Techcanvass Agile Analysis Certification self-study preparation pack. I cracked AAC on the first attempt.
+                                I practiced simulation exam of every chapter, and it really helped out. Thank you! Techcanvass for the exam-oriented study material.
+                            </p>
+                        </div>
+                    </div>              
+                </div>
+                <!--3-->
+               <div class="carousel-item">
+                    <div class="review-box">
+                        <img src="./assets/images/hardik.webp" alt="" class="rounded-circle d-block mx-auto">
+                        <div class="text-center">
+                            <h5 class="text-primary mt-3">Hardeep Singh Arora</h5>
+                            <h5 class="text-primary">(Completed CBAP Training) </h5>
+                            <p class="fw-bold"><small> Sr. Business Analyst at Grainco Ltd </small></p>
+                            <p>                    
+                                The CBAP self-paced course was beneficial for me as I could study at my schedule and could re-run the videos for revision.
+                                <br/>The test series was extremely helpful for me to focus on specific topics where I needed more practice. I also liked the personal score % dashboard as it helped me to gauge my overall standing and preparation level.
+                                <br/>Thanks again to Techcanvass team for helping me to prepare for this certification. 
+                            </p>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       
+      </div>
+
+    <!--OUR CUSTOMERS-->
+      <div class="customers container mt-5">
+        <h3 class="fw-bold text-center">Our Customers</h3>
+        <div class="owl-carousel owl-carousel1 owl-theme mt-4">
+            <div class="item">
+                <img src="./assets/images/customers/Dale Carnegie Logo.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="./assets/images/customers/General Mills.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="./assets/images/customers/I Pru Logo.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="./assets/images/customers/IIFL Logo.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="./assets/images/customers/rebit-logo-01_0.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="./assets/images/customers/virtusa-logo.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="./assets/images/customers/Viteos logo.webp" alt="">
+            </div>
+        </div>
+      </div>
+
+    <!--Whatsapp icon-->
+      <div class="whats-icon">
+          <a href="https://api.whatsapp.com/send/?phone=917432010353&text&app_absent=0" target="_blank">
+            <span class="iconify text-white" data-icon="akar-icons:whatsapp-fill"></span>          
+        </a>
+      </div>
+
+    <!--FOOTER-->
+    <footer class="py-4 px-5 bg-primary mt-5 text-white">
+    <div class="row">
+        <!--1-->
+        <div class="col-lg-2 col-md-4">
+            <h5>Follow Us!</h5>
+            <div class="mt-3">
+                <div class="d-flex">
+                    <a href="https://businessanalyst.techcanvass.com/" target="_blank" class="mx-1 p-1 rounded-circle bg-secondary text-white d-flex justify-content-center align-items-center icn"><span class="iconify" data-icon="cib:blogger-b"></span>
+                    </a>
+                    <a href="https://www.facebook.com/Techcanvass/" target="_blank" class="mx-1 p-1 rounded-circle bg-secondary text-white d-flex justify-content-center align-items-center icn"><span class="iconify" data-icon="brandico:facebook"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/company/techcanvass/" target="_blank" class="mx-1 p-1 rounded-circle bg-secondary text-white d-flex justify-content-center align-items-center icn"><span class="iconify" data-icon="dashicons:linkedin"></span>
+                    </a>
+                    <a href="https://twitter.com/techcanvass" target="_blank" class="mx-1 p-1 rounded-circle bg-secondary text-white d-flex justify-content-center align-items-center icn"><span class="iconify" data-icon="bi:twitter"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-2">
+                <div class="d-flex">
+                    <span class="iconify  me-2" data-icon="bx:bxs-phone"></span>
+                    <p class=" mb-0">+91 93255 66777</p>
+                </div>
+                <div class="d-flex">
+                    <span class="iconify  me-2" data-icon="bx:bxs-phone"></span>
+                    <p class=" mb-0">+91 74320 10353</p>
+                </div>
+                <div class="d-flex">
+                    <span class="iconify " data-icon="ic:sharp-email"></span>
+                    <p class=" mb-0">info@techcanvass.com</p>
+                </div>
+            </div>
+        </div>
+        <!--2-->
+        <div class="col-lg-2 col-md-4">
+            <h5>Company</h5>
+            <div class="mt-3">
+                <a href=""><p class="mb-1">About Us</p></a>
+                <a href=""><p class="mb-1">Our Founder</p></a>
+                <a href=""><p class="mb-1">Our Advisor</p></a>
+                <a href=""><p class="mb-1">Contact Us</p></a>
+            </div>
+        </div>
+        <!--3-->
+        <div class="col-lg-2 col-md-4">
+            <h5>Top Courses</h5>
+            <div class="mt-3">
+                <a href=""><p class="mb-1">PMP Certification Course</p></a>
+                <a href=""><p class="mb-1">IIBA Business Analysis Certifications</p></a>
+                <a href=""><p class="mb-1">Domain Training Courses</p></a>
+            </div>
+        </div>
+        <!--4-->
+        <div class="col-lg-2 col-md-4">
+            <h5>Free Courses</h5>
+            <div class="mt-3">
+                <a href=""><p class="mb-1">Agile Scrum Essentials</p></a>
+                <a href=""><p class="mb-1">Tableau Training Course</p></a>
+                <a href=""><p class="mb-1">Agile Testing Certification</p></a>
+                <a href=""><p class="mb-1">DevOps Course</p></a>
+            </div>
+        </div>
+        <!--5-->
+        <div class="col-lg-2 col-md-4">
+            <h5>Resources</h5>
+            <div class="mt-3">
+                <a href=""><p class="mb-1">Project Management Blog</p></a>
+                <a href=""><p class="mb-1">Business Analysis Blog</p></a>
+                <a href=""><p class="mb-1">CBAP resource Library</p></a>
+                <a href=""><p class="mb-1">ECBA resource Library</p></a>
+            </div>
+        </div>
+        <!--6-->
+        <div class="col-lg-2 col-md-4">
+            <h5>Quick Links</h5>
+            <div class="mt-3">
+                <a href=""><p class="mb-1">LMS Portal Login</p></a>
+                <a href=""><p class="mb-1">Discussion Forum</p></a>
+                <a href=""><p class="mb-1">Latest Offers</p></a>
+                <a href=""><p class="mb-1">Online Events</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <div class="py-3 border-top">
+            <h5 class="text-secondary">Trending Courses</h5>
+            <div class="d-flex flex-wrap mt-3">
+                <a href="" class="me-3 link">CBAP Certification Training</a>
+                <a href="" class="me-3 link">Agile Business Analysis (AAC) Certification Course</a>
+                <a href="" class="me-3 link">Data Visualization course with Power BI</a>
+                <a href="" class="me-3 link">Data Visualization Course with Tableau</a>
+                <a href="" class="me-3 link no-line">MS Visio Certification Course</a>
+            </div>
+        </div>
+        <div class="py-3 border-top">
+            <h5 class="text-secondary">Self-Learning Certification Courses </h5>
+            <div class="d-flex flex-wrap mt-3">
+                <a href="" class="me-3 link">CBAP Self-Learning Course</a>
+                <a href="" class="me-3 link">AAC Self-Learning Course</a>
+                <a href="" class="me-3 link">CCBA Self-Learning Course</a>
+                <a href="" class="me-3 link">ECBA Self-Learning Course</a>
+                <a href="" class="me-3 link">UML Modelling Certification Course</a>
+                <a href="" class="me-3 link">JIRA Certification Course for Business analyst</a>
+                <a href="" class="me-3 link">MS Visio/ UML Certification</a>
+                <a href="" class="me-3 link no-line">SQL Certification for Business Analyst</a>
+            </div>
+        </div>
+        <div class="py-3 border-top">
+            <h5 class="text-secondary">Short/Specialized Certification Courses </h5>
+            <div class="d-flex flex-wrap mt-3">
+                <a href="" class="me-3 link">MS Visio Training</a>
+                <a href="" class="me-3 link"> SQL Training for Business Analyst</a>
+                <a href="" class="me-3 link"> Online UML Training </a>
+                <a href="" class="me-3 link">JRA Training</a>
+                <a href="" class="me-3 link">Agile Essential Course(Free)</a>
+                <a href="" class="me-3 link no-line">Devops Certification Training (Free)</a>
+            </div>
+        </div>
+        <div class="py-3 border-top">
+            <h5 class="text-secondary">Domain Training Courses</h5>
+            <div class="d-flex flex-wrap mt-3">
+                <a href="" class="me-3 link">Banking Domain Certification Course</a>
+                <a href="" class="me-3 link">Payments Banking Domain Certification Course </a>
+                <a href="" class="me-3 link">Investment Banking Domain Certification Course</a>
+                <a href="" class="me-3 link">Insurance Banking Domain Certification Course </a>
+                <a href="" class="me-3 link">Trade Finance Banking Domain Certification Course</a>
+                <a href="" class="me-3 link">US Healthcare Domain Certification Course</a>
+                <a href="" class="me-3 link">Business Analyst Training with Banking domain </a>
+                <a href="" class="me-3 link">Business Analyst Training with US Healthcare Domain</a>
+                <a href="" class="me-3 link">Business Analyst Training with Investment Banking Domain</a>
+                <a href="" class="me-3 link">Business Analyst Training with Trade Finance Domain</a>
+                <a href="" class="me-3 link no-line">All Domain Training Courses</a>
+            </div>
+        </div>
+        <div class="py-3 border-top">
+            <h5 class="text-secondary">Discuss / Ask an Expert</h5>
+            <div class="d-flex flex-wrap mt-3">
+                <a href="" class="me-3 link">Business Analysis</a>
+                <a href="" class="me-3 link">Business Analyst Career</a>
+                <a href="" class="me-3 link">Business Analyst Interview</a>
+                <a href="" class="me-3 link">Business Analytics</a>
+                <a href="" class="me-3 link">Data Visualization</a>
+                <a href="" class="me-3 link">IIBA Certifications</a>
+                <a href="" class="me-3 link">Project Management</a>
+                <a href="" class="me-3 link no-line">Statistics</a>
+            </div>
+        </div>
+        <div class="py-3 border-top">
+            <h5 class="text-secondary">Popular Blog Articles</h5>
+            <div class="d-flex flex-wrap mt-3">
+                <a href="" class="me-3 link">CBAP Exam Questions</a>
+                <a href="" class="me-3 link">CCBA Exam Questions</a>
+                <a href="" class="me-3 link">ECBA Exam Questions </a>
+                <a href="" class="me-3 link">AAC Exam Questions</a>
+                <a href="" class="me-3 link">CBAP Certification</a>
+                <a href="" class="me-3 link">CCBA Certification</a>
+                <a href="" class="me-3 link">ECBA Certification</a>
+                <a href="" class="me-3 link">Agile Analysis AAC Matchmaking</a>
+                <a href="" class="me-3 link">Agile Analysis AAC Flashcards</a>
+                <a href="" class="me-3 link">Agile Analysis AAC Crosswords</a>
+                <a href="" class="me-3 link">BABOKDrills Matchmaking</a>
+                <a href="" class="me-3 link">BABOKDrills Flashcards</a>
+                <a href="" class="me-3 link no-line">BABOKDrills Crosswords</a>
+            </div>
+        </div>
+        <div class="py-3 border-top">
+            <h5 class="text-secondary">Contact Details:</h5>
+            <div class="d-flex flex-wrap mt-3">
+                <p> <span class="iconify" data-icon="ic:round-place"></span>265, 2nd Floor, Powai Plaza, Hiranandani Gardens, Opp Pizza Hut, Powai, Mumbai-76.</p>
+            </div>
+        </div>
+        <div class="mt-4 d-flex justify-content-center terms">
+            <a href="" class="mx-4">Terms of Service</a>
+            <a href="" class="mx-4">Privacy Policy</a>
+            <a href="" class="mx-4">Refund Policy</a>
+        </div>
+    </div>
+    </footer>
+    <!--Copy Right-->
+    <div class="py-2 text-center copy">
+        <p class="mb-0">
+            Copyright © Techcanvass | All Rights Reserved
+        </p>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/jquery.flipper-responsive.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script>
+        $(function(){
+            $('#myFlipper').flipper('init');
+            $('.close').on('click', ()=>{
+              $('.offer-nav').hide()
+            })
+        });
+
+    </script>
+</body>
+</html>

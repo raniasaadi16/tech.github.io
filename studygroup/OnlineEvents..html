@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Resources/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="../Resources/css/jquery-countryselector.min.css">
+
+</head>
+<body>
+   
+   
+    <!--HADER-->
+    <header class="d-flex justify-content-center align-items-center text-white event">
+        <div>
+            <h2 class="fw-bold text-center">Events@Techcanvass</h2>
+            <div class="d-flex justify-content-center mt-3 flex-wrap">
+                <div class="ms-2 bg-primary py-2 px-4 clip mt-1">Webbinares</div>
+                <div class="ms-2 bg-primary py-2 px-4 clip mt-1">Experts Q&A</div>
+                <div class="ms-2 bg-primary py-2 px-4 clip mt-1">Free Wheeling Chats</div>
+
+            </div>
+        </div>
+
+    </header>
+    
+    <!--MAIN CONTENT-->
+    <div class="mt-5 container">
+                
+        <!--PROJECTS-->
+        <div class="mt-5 projects">
+            <h3 class="fw-bold text-primary mb-2">Upcoming Events and Webinars</h3>
+            <p>What’s coming up? View the listings of all the events lined up in the coming weeks. Some of the events are free, while others are Paid ones, free for premium members.</p>
+            <div class="mt-4">
+                <!--1-->
+                <div class="card mb-3 border-0">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-md-4">
+                            <img src="../Resources/images/Webinar_18Dec.jpg" class="img-fluid rounded-start" style='height:100%;object-fit:cover' alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <a href="https://techcanvass.com/studygroup/event/How-to-become-a-Project-Manager" target="_blank" class="text-primary">
+                                <h5 class="card-title fw-bold">How to become a Project Manager</h5>
+                            </a>
+                            <p class="card-text"><small class="text-muted">18-December-2021
+                            </small></p>
+                            <p class="card-text">
+                                A career in Project Management is a rewarding one. A Project Manager’s role gives you an opportunity to balance between people management and delivering value to company and customers. And as the world is significantly moving towards a Project based economy, the Project Management Institute (PMI) also projects that there will be a demand for 2.2 million new project-oriented roles per year will 202...
+                            </p>
+                            <a class="btn btn-secondary text-primary" target="_blank" href="https://techcanvass.com/studygroup/event/How-to-become-a-Project-Manager">Read More </a>
+                            <button type="button" class="btn btn-primary text-white"  data-bs-toggle="modal" data-bs-target="#register1">Register Now</button>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="register1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Register</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="name" class="form-label">Name</label>
+                                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">  
+                                </div>
+                                <div class="mb-3">
+                                    <label for="select" class="form-label">Select country</label>
+                                    <select data-role="country-selector" id="select" value='IND'></select>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                <!--2-->
+                <div class="card mb-3 border-0">
+                    <div class="row align-items-center g-0">
+                        <div class="col-md-4">
+                        <img src="../Resources/images/Webinar_21Dec.jpg" class="img-fluid rounded-start" style='height:100%;object-fit:cover' alt="...">
+                        </div>
+                        <div class="col-md-8">
+                        <div class="card-body">
+                            <a href="https://techcanvass.com/studygroup/event/Future-proof-your-career-with-Business-Data-Analytics" target="_blank" class="text-primary">
+                                <h5 class="card-title fw-bold">Future-proof your career with Business Data Analytics</h5>
+                            </a>
+                            <p class="card-text"><small class="text-muted">21-December-2021
+                            </small></p>
+                            <p class="card-text">
+                                The role of a business analyst is evolving due to the data explosion. As more and more organizations are becoming data-driven, business data analytics has emerged as a promising field. This webinar will equip you for the new Business Data Analytics roles.
+                            </p>
+                            <a class="btn btn-secondary text-primary" target="_blank" href="https://techcanvass.com/studygroup/event/Future-proof-your-career-with-Business-Data-Analytics">Read More </a>
+                            <button type="button" class="btn btn-primary text-white"  data-bs-toggle="modal" data-bs-target="#register1">Register Now</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="register2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Register</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="name" class="form-label">Name</label>
+                                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">  
+                                </div>
+                                <div class="mb-3">
+                                    <label for="select" class="form-label">Select country</label>
+                                    <select data-role="country-selector" id="select" value='IND'></select>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <!--ABOUT-->
+        <div class="mt-5 about">
+            <h3 class="fw-bold text-primary">ABOUT OUR ONLINE EVENTS</h3>
+            <div class="mt-3">
+                <p>            
+                Techcanvass conducts online events and webinars to help you get insights and in-depth understanding of topics of interest. These events cover a range of topics from IIBA Certification preparations, Agile and Business Analysis, Business Analytics, Data Visualization and more.
+                <br>
+                These Events are online and are organized on weekends only. The events will also help you prepare for the IIBA certifications like CBAP, CCBA, AAC, CBDA and ECBA. These are not regular training sessions but specially organized sessions with certified and experienced business analysts bringing in fresh perspectives and providing insights. 
+                <br>
+                <br>
+                Who should attend these events? 
+                </p>
+                <ul>
+                    <li>If you are preparing for any of the IIBA Certifications, you will find these sessions insightful and informative?</li>
+                    <li>If you would like to know about business analysis career and growth opportunities?</li>
+                    <li>If you would like to become an Agile Business Analyst?</li>
+                    <li>If you are interested in topics related to Data analytics, Data visualization, Tableau or PowerBI?</li>
+                    <li>If you are not feeling confident about some of the chapters/Topics/Techniques, these events will provide you in-depth understanding</li>
+                </ul>
+            </div>
+            <div class="mt-4">
+                <div class="row">
+                    <!--1-->
+                    <div class="col-lg-4 col-sm-12 col-md-6 mt-1">
+                        <div class="card bg-dark text-white">
+                            <img src="../Resources/images/waiting-room-with-monitors_1232-1390.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title fw-bold">CBAP/CCBA/ECBA Events</h5>
+                              <p class="card-text">Prep strategy, Knowledge sessions, Case Study/Mock questions sessions</p>
+                            </div>
+                          </div>
+                    </div>
+                    <!--2-->
+                    <div class="col-lg-4 col-sm-12 col-md-6 mt-1">
+                        <div class="card bg-dark text-white">
+                            <img src="../Resources/images/businessman-pointing-graphs-symbols_1232-917.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title fw-bold">Business/Data Analytics Events</h5>
+                              <p class="card-text">Learning Series, CBDA certification Preparation, Tableau and PowerBI sessions</p>
+                            </div>
+                          </div>
+                    </div>
+                    <!--1-->
+                    <div class="col-lg-4 col-sm-12 col-md-6 mt-1">
+                        <div class="card bg-dark text-white">
+                            <img src="../Resources/images/speakers-stage-with-rear-view-audience-conference-hall-seminar-meeting_38810-6276.jpg" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title fw-bold">Agile Business Analysis Events</h5>
+                              <p class="card-text">Agile and Business analysis knowledge sessions, Certification preparation sessions</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MEMBERSHIP-->
+    <div class="mt-5 membership py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 my-auto">
+                    <h3 class="fw-bold text-center text-primary">MEMBERSHIP BENEFITS</h3>
+                    <p class="text-center">Becoming a member brings in lots of benefits and helps you make your preparation better and efficient.</p>
+                </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        <!--1-->
+                        <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box" style="height: 100%;">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="carbon:magic-wand-filled" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Attend any number of events</p>
+                                </div>
+                                <p class="mt-3">
+                                    You can attend any number of these events for Free
+                                </p>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box" style="height: 100%;">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="bi:magic" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Sp. Discounts on All Question banks</p>
+                                </div>
+                                <p class="mt-3">
+                                    Get access to 4-levels of mock tests Try free - <a href="" class="text-primary">CBAP</a>, <a href="" class="text-primary">CCBA</a>, <a href="" class="text-primary">ECBA</a>
+                                </p>
+                            </div>
+                        </div>
+                        <!--3-->
+                        <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box" style="height: 100%;">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="bi:patch-question" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Sp. Discounts on All Question banks</p>
+                                </div>
+                                <p class="mt-3">
+                                    Get BABOK revision guide for free
+                                </p>
+                                <a href="" class="mt-2 text-primary">Download Sample Chapter</a>
+                            </div>
+                        </div>
+                        <!--4-->
+                        <div class="col-lg-6 col-md-6 col-sm-6 mt-2">
+                            <div class="bg-white px-3 py-3 rounded box" style="height: 100%;">
+                                <div class="d-flex justify-content-between title">
+                                    <div class="py-1 px-2 icon-bg text-primary rounded" style='height: max-content'>
+                                        <span class="iconify" data-icon="teenyicons:discount-solid" style="font-size: 24px;"></span>
+                                    </div>
+                                    <p class="fw-bold text-primary ms-2 mb-0">Sp. Discount on all Courses</p>
+                                </div>
+                                <p class="mt-3">
+                                    Get special discount on all courses
+                                </p>
+                                <a href="" class="mt-2 text-primary">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+         <!--PLANS-->
+        <div class="upcoming mt-5" id='Upcoming'>
+            <h3 class="fw-bold text-primary text-center">
+                Membership Plans
+            </h3>
+            <p class="text-center text-decoration-underline my-2">We have three membership plans to help you give your IIBA certification preparation a boost</p>
+            <div class="mt-3">
+                <p class="text-center mb-0">(Please Select Currency)</p>
+                <div class="d-flex justify-content-center">
+                    <div class="form-check mx-2" id='inr1'>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        <strong>INR (₹)</strong>
+                        </label>
+                    </div>
+                    <div class="form-check mx-2" id='usd1'>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        <strong>USD ($)</strong>
+                    </label>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-4">
+                <table id="table_id" class="display">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Free Plan</th>
+                            <th>Radiant Plan</th>
+                            <th>Superior Plan</th>
+                            <th>Ultimate Plan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Validity</strong></td>
+                            <td>1 month</td>
+                            <td>3 months</td>
+                            <td>3 months</td>
+                            <td>6 months</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Knowledge Areas Sessions</strong></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Techniques sessions</strong></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Case Study Mocks</strong></td>
+                            <td style="color:red"><span class="iconify" data-icon="bx:bx-x"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scenario based questions mocks</strong></td>
+                            <td style="color:red"><span class="iconify" data-icon="bx:bx-x"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Doubts clearing sessions</strong></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Question Bank</strong></td>
+                            <td style="color:red"><span class="iconify" data-icon="bx:bx-x"></span></td>
+                            <td style="color:red"><span class="iconify" data-icon="bx:bx-x"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>BABOK revision Guide</strong></td>
+                            <td style="color:red"><span class="iconify" data-icon="bx:bx-x"></span></td>
+                            <td style="color:red"><span class="iconify" data-icon="bx:bx-x"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                            <td class="text-primary"><span class="iconify" data-icon="akar-icons:check"></span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Membership Fees</strong></td>
+                            <td>Free</td>
+                            <td id='Iner'>
+                                <p class="fw-bold mb-0">₹ 4,165<span class="text-red ms-2">15% off</span></p>
+                                <p class="text-decoration-line-through mb-0 text-rede">₹ 4,900</p>
+                                <p class="fw-bold text-primary mb-0">[GST Extra]</p>
+                            </td>
+                            <td id='Iner'>
+                                <p class="fw-bold mb-0">₹ 6,272<span class="text-red ms-2">20% off</span></p>
+                                <p class="text-decoration-line-through mb-0 text-rede">₹ 7,840</p>
+                                <p class="fw-bold text-primary mb-0">[GST Extra]</p>
+                            </td>
+                            <td id='Iner'>
+                                <p class="fw-bold mb-0">₹ 7,800<span class="text-red ms-2">25% off</span></p>
+                                <p class="text-decoration-line-through mb-0 text-rede">₹ 10,360</p>
+                                <p class="fw-bold text-primary mb-0">[GST Extra]</p>
+                            </td>
+                            <td id='Usd' style="display: none;">
+                                <p class="fw-bold mb-0">$ 60<span class="text-red ms-2">15% off</span></p>
+                                <p class="text-decoration-line-through mb-0 text-rede">$ 70</p>
+                                <p class="fw-bold text-primary mb-0">[If you live Outside India, GST not applicable]</p>
+                            </td>
+                            <td id='Usd' style="display: none;">
+                                <p class="fw-bold mb-0">$ 90<span class="text-red ms-2">20% off</span></p>
+                                <p class="text-decoration-line-through mb-0 text-rede">$ 112</p>
+                                <p class="fw-bold text-primary mb-0">[If you live Outside India, GST not applicable]</p>
+                            </td>
+                            <td id='Usd' style="display: none;">
+                                <p class="fw-bold mb-0">$ 110<span class="text-red ms-2">25% off</span></p>
+                                <p class="text-decoration-line-through mb-0 text-rede">$ 148</p>
+                                <p class="fw-bold text-primary mb-0">[If you live Outside India, GST not applicable]</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button id='buy1' class="btn btn-primary text-white px-3 py-2 rounded">Free Trial</button>
+                            </td>
+                            <td>
+                                <button id='buy2' class="btn btn-primary text-white px-3 py-2 rounded">Buy Now</button>
+                            </td>
+                            <td>
+                                <button id='buy3' class="btn btn-primary text-white px-3 py-2 rounded">Buy Now</button>
+                            </td>
+                            <td>
+                                <button id='buy4' class="btn btn-primary text-white px-3 py-2 rounded">Buy Now</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--COURSES-->
+      <div class="courses container mt-5">
+        <h3 class="fw-bold">
+            Business Analyst Certification courses
+        </h3>
+        <div class="row mt-3">
+            <!--course 1-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="../Resources/images/kevin-bhagat-zNRITe8NPqY-unsplash.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">ECBA Certification Course</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 2-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="../Resources/images/austin-distel-rxpThOwuVgE-unsplash.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">CBAP Certification Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 3-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="../Resources/images/austin-distel-VvAcrVa56fc-unsplash.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">CCBA Certification Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+            <!--course 4-->
+            <div class="col-lg-3 col-sm-6 mt-2">
+                <a href="">
+                <div class="card" style="width: 100%;">
+                    <div class="img-box">
+                        <img src="../Resources/images/austin-distel-L3OV19xVi8Q-unsplash.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="fw-bold">AAC Certification Training</h5>
+                        <p class="card-text mb-1">Professor Adam Smith, Sam Lee</p>
+                        <p class="small text-gray mb-0">
+                            <span class="me-2">5 weeks, 5hrs/week</span>  |  <span class="ms-2">Apply by January 7</span>
+                        </p>
+                    </div>
+                    <div class="card-header text-white d-flex justify-content-between align-items-center">
+                        <p class="mb-0">
+                            <span class="iconify me-2" style="font-size: 18px;" data-icon="carbon:certificate-check"></span>
+                            Certificate
+                        </p>
+                        <h5 class="fw-bold mb-0">144$</h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+        <div class="mt-4">
+            <a href="https://techcanvass.com/Techcanvass-Offers-deals.aspx#Business-Analyst-short" target="_blank" class="btn btn-primary text-white px-4 py-2 rounded mx-auto d-block" style="width: max-content">Search All Courses</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Whatsapp icon-->
+      <div class="whats-icon">
+        <a href="https://api.whatsapp.com/send/?phone=917432010353&text&app_absent=0" target="_blank">
+            <span class="iconify text-white" data-icon="akar-icons:whatsapp-fill"></span>          
+        </a>
+      </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="../Resources/js/jquery.flipper-responsive.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+    <script src="../Resources/js/jquery.countrySelector.js"></script>
+    <script src="../Resources/js/script.js"></script>
+    <script>
+        $(function(){
+            $('#myFlipper').flipper('init');
+            $('.close').on('click', ()=>{
+              $('.offer-nav').hide()
+            })
+        });
+
+
+    </script>
+</body>
+</html>

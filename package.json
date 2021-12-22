@@ -1,0 +1,16 @@
+{
+  "name": "techcanvass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "course-scss": "sass --watch scss/pages/course/main.scss:assets/css/course.css",
+    "event-scss": "sass --watch scss/pages/event/main.scss:assets/css/event.css",
+    "start": "sass --watch scss/main.scss:Resources/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
