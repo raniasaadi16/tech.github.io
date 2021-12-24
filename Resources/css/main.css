@@ -11169,22 +11169,12 @@ a {
 
 .title, .title-sec {
   position: relative;
-  width: max-content;
-  margin-bottom: 37px;
-  color: #1B77B1;
+  width: auto;
+  margin-bottom: 20px;
 }
 
 .title-sec {
-  margin: 0 auto 37px auto;
-}
-
-.title::before, .title-sec::before {
-  position: absolute;
-  content: "";
-  width: 70%;
-  height: 3px;
-  background: #1B77B1;
-  top: 120%;
+  margin: 0 auto 20px auto;
 }
 
 .title-sec::before {
@@ -11201,7 +11191,23 @@ a {
 }
 
 .bg-ov {
-  background: #EFF4FF;
+  background: #E8F8FF;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+#table_id_wrapper {
+  overflow: auto;
+}
+
+.style-sd {
+  list-style: disclosure-closed !important;
+}
+
+.width-auto {
+  width: auto !important;
 }
 
 .offer-nav {
@@ -11866,6 +11872,13 @@ header.buss .clip {
   width: max-content;
 }
 
+.agil {
+  background-image: url("../images/Agile-Analysis-AAC-Certification-Course.webp");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
 .overview img {
   width: 100%;
   max-height: 450px;
@@ -11911,12 +11924,20 @@ header.buss .clip {
 }
 
 .accordion-button {
-  background: #EFF4FF;
+  background: #F4F9FB;
   font-weight: 600;
 }
 
 .accordion-body {
-  background: #EFF4FF;
+  background: #F4F9FB;
+}
+
+.program .accordion-button {
+  background: #fff;
+  font-weight: 600;
+}
+.program .accordion-body {
+  background: #fff;
 }
 
 .pricing .tab-first {
@@ -11925,13 +11946,7 @@ header.buss .clip {
 .pricing li {
   margin-top: 5px;
   margin-bottom: 5px;
-}
-.pricing .old-price {
-  color: red;
-  text-decoration: line-through;
-}
-.pricing .offer {
-  color: green;
+  list-style: none;
 }
 .pricing .buttons a, .pricing .buttons button {
   width: 100%;
@@ -11957,6 +11972,29 @@ header.buss .clip {
   width: 80%;
   margin: auto;
   display: block;
+}
+
+.pric-4 .bg-ov {
+  min-height: 270px;
+}
+.pric-4 .min-h {
+  min-height: 285px;
+}
+
+.pric-2 .bg-ov {
+  min-height: 233px;
+}
+.pric-2 .min-h {
+  min-height: 244px;
+}
+
+.old-price {
+  color: red;
+  text-decoration: line-through;
+}
+
+.offer {
+  color: green;
 }
 
 .certeficate img {
@@ -12046,6 +12084,17 @@ header.buss .clip {
 }
 .skills .skill p {
   font-size: 14px;
+}
+
+.expert .experts-mx {
+  max-width: 700px;
+}
+.expert .experts-mx .mx-spa {
+  width: 83%;
+}
+.expert .experts-mx img {
+  height: 250px;
+  object-fit: cover;
 }
 
 .about img {
