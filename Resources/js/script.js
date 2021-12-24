@@ -154,6 +154,28 @@ if (document.querySelector('#Iner')) {
     })
 
 }
+if (document.querySelector('#INR')) {
+    const usd = document.querySelector('#usd1')
+    const inr = document.querySelector('#inr1')
+
+    usd.addEventListener('click', function() {
+        document.querySelectorAll('#INR').forEach(on => {
+            on.style.display = 'none'
+        });
+        document.querySelectorAll('#USD').forEach(on => {
+            on.style.display = 'block'
+        })
+    })
+    inr.addEventListener('click', function() {
+        document.querySelectorAll('#USD').forEach(on => {
+            on.style.display = 'none'
+        });
+        document.querySelectorAll('#INR').forEach(on => {
+            on.style.display = 'block'
+        })
+    })
+
+}
 
 if (document.querySelector('.show-less-div')) {
     $('.show-less-div').myOwnLineShowMoreLess({
