@@ -642,7 +642,7 @@ progress {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 1100px;
+    max-width: 950px;
   }
 }
 @media (min-width: 1140px) {
@@ -11196,6 +11196,14 @@ a {
   background: #f7f8fa;
 }
 
+.linear-bg {
+  background: linear-gradient(85.04deg, #1B77B1 4.85%, #B1E1F4 51.44%);
+}
+
+.bg-ov {
+  background: #EFF4FF;
+}
+
 .offer-nav {
   background: #1B77B1;
 }
@@ -11714,6 +11722,7 @@ header .btn {
 }
 .testimonials .review-box {
   width: 90%;
+  padding: 15px 8px;
   margin: auto;
 }
 @media (max-width: 991px) {
@@ -11722,8 +11731,8 @@ header .btn {
   }
 }
 .testimonials .review-box img {
-  width: 100px;
-  height: 100px;
+  width: 70px !important;
+  height: 70px;
   padding: 5px;
   border: 1px solid #1B77B1;
 }
@@ -11735,14 +11744,26 @@ header .btn {
     font-size: 16px;
   }
 }
-.testimonials .carousel-control-prev, .testimonials .carousel-control-next {
-  background: #000;
+.testimonials .owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.testimonials .owl-nav button {
+  background: #000 !important;
+  color: #fff !important;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  top: 70px;
-  padding: 3px;
-  opacity: 0.8;
+  margin: 0 7px;
+  opacity: 0.7;
+}
+.testimonials .item-hg .text-center {
+  height: 210px;
+  overflow: auto;
+}
+.testimonials .owl-stage-outer {
+  overflow: inherit !important;
 }
 
 .course-testi p {
@@ -11854,6 +11875,11 @@ header.buss .clip {
   max-width: 190px;
   object-fit: cover;
 }
+.overview .icon-bg {
+  border-radius: 5px 0 5px 0 !important;
+  width: max-content;
+  margin-bottom: 10px;
+}
 
 .sticky-nav {
   position: sticky;
@@ -11885,8 +11911,12 @@ header.buss .clip {
 }
 
 .accordion-button {
-  background: #EDEEF3;
+  background: #EFF4FF;
   font-weight: 600;
+}
+
+.accordion-body {
+  background: #EFF4FF;
 }
 
 .pricing .tab-first {
@@ -11917,6 +11947,8 @@ header.buss .clip {
 }
 .pricing .discount {
   border: 5px dotted #B1E1F4;
+  width: 60%;
+  margin: auto;
 }
 .pricing .discount .div {
   border-radius: 5px 5px 0 0;
@@ -11938,6 +11970,7 @@ header.buss .clip {
 }
 .testimonials .review-box {
   width: 90%;
+  padding: 15px 8px;
   margin: auto;
 }
 @media (max-width: 991px) {
@@ -11946,8 +11979,8 @@ header.buss .clip {
   }
 }
 .testimonials .review-box img {
-  width: 100px;
-  height: 100px;
+  width: 70px !important;
+  height: 70px;
   padding: 5px;
   border: 1px solid #1B77B1;
 }
@@ -11959,14 +11992,26 @@ header.buss .clip {
     font-size: 16px;
   }
 }
-.testimonials .carousel-control-prev, .testimonials .carousel-control-next {
-  background: #000;
+.testimonials .owl-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.testimonials .owl-nav button {
+  background: #000 !important;
+  color: #fff !important;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  top: 70px;
-  padding: 3px;
-  opacity: 0.8;
+  margin: 0 7px;
+  opacity: 0.7;
+}
+.testimonials .item-hg .text-center {
+  height: 210px;
+  overflow: auto;
+}
+.testimonials .owl-stage-outer {
+  overflow: inherit !important;
 }
 
 .course-testi p {
@@ -11975,6 +12020,9 @@ header.buss .clip {
 
 .preview .img-box {
   position: relative;
+}
+.preview .img-box img {
+  width: 100%;
 }
 .preview .img-box .icon {
   position: absolute;
@@ -11993,7 +12041,7 @@ header.buss .clip {
 }
 
 .skills .skill {
-  background: #EDEEF3;
+  background: #ffff;
   margin: 5px 0;
 }
 .skills .skill p {

@@ -45,6 +45,29 @@ if (document.querySelector(".owl-carousel2")) {
         }
     })
 }
+if (document.querySelector(".owl-carousel3")) {
+    $('.owl-carousel3').owlCarousel({
+        loop: true,
+        margin: 20,
+        responsiveClass: true,
+        autoplayTimeout: 2000,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 3,
+                nav: false
+            },
+            1000: {
+                items: 3,
+                nav: true,
+                loop: false
+            }
+        }
+    })
+}
 
 if (document.getElementById("countdown")) {
     const countdown = document.querySelectorAll("#countdown")
@@ -136,6 +159,6 @@ if (document.querySelector('.show-less-div')) {
     $('.show-less-div').myOwnLineShowMoreLess({
         showLessText: 'Read Less',
         showMoreText: 'Read More',
-        showLessLine: 4
+        showLessLine: 3
     });
 }
